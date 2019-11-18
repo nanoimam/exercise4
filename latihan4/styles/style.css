@@ -1,0 +1,197 @@
+* {
+    margin-top:0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#wrapper {
+    width:700px;
+    min-height: 700px;
+    text-align: center;
+    color:white;
+  
+   overflow:visible;
+    margin: auto;
+    
+    
+}
+
+#wrapper #top {
+    width:700px;
+    
+   min-height: 230px;
+   margin-bottom: 20px;
+   
+}
+#wrapper #top #left{
+    background: url("../images/logo-apple1.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position:left;
+    float:left;
+    width:200px;
+    height: 200px;
+    
+}
+
+#wrapper #top #right{
+   margin-left: 0px;
+    background: url("../images/steve.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position:left center;
+    width:500px;
+    height: 200px;
+    float:left;
+   
+
+}
+#wrapper #top #menu{
+    float:left;
+    width:700px;
+    min-height: 20px;
+    background-color: #000;
+    height : 40px;
+
+}
+#wrapper #top #menu ul{
+    margin-top:5px;
+    display: inline-block;
+   padding-top: 0px;
+    list-style-type: none;
+}
+#wrapper #top #menu ul li{
+    display: block;
+
+    text-align:center;
+    float:left;
+    width:120px;
+}
+#wrapper #top #menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    line-height: 30px;
+}
+#wrapper #top #menu ul li a:hover{
+
+    color:rgb(46, 46, 46);
+}
+
+
+
+#wrapper #content {
+   margin-top: 20px;
+   overflow: hidden;
+  
+ 
+    min-height:575px;
+}
+#wrapper #content #left{
+    float:left;
+    width: 230px;
+    min-height: 600px;
+  
+
+}
+#wrapper #content #right{
+   float:right;
+   margin-left: 15px;
+    width: 455px;
+    min-height: 530px;
+    background-color: rgb(255, 255, 255);
+
+}
+#wrapper #content h1{
+   padding-left: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align:left;
+   font-size:20px;
+   color:#000;
+   margin-bottom: 0px;
+   
+
+
+}
+#wrapper #content h2{
+   padding-left: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align:center;
+   font-size:15px;
+   background-color: #000;
+   color: #fff;
+   margin-bottom: 0px;
+
+}
+#wrapper #content #right p{
+   text-indent: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align:justify;
+    color: black;
+    font-size: 12px;
+}
+#wrapper #content img{
+   padding-left: 10px;
+   padding-right: 10px;
+   height:60px;
+   float:left;
+
+}
+
+#wrapper #content #left #left_1{
+
+   background-color: rgb(255, 255, 255);
+   min-height: 100px;
+   overflow: hidden;
+}
+
+#wrapper #content #left #left_2{
+   margin-top:15px;
+   background:url("../images/noproblemmac.jpeg");
+   background-repeat: no-repeat;
+   background-size: 230px ;
+   min-height: 130px;
+   overflow: hidden;
+}
+#wrapper #content #left #left_3{
+   margin-top:15px;
+   background:url("../images/thumb.php.jpg");
+   background-repeat: no-repeat;
+   background-size: 230px ;
+   min-height: 130px;
+   overflow: hidden;
+}
+#wrapper #content #left #left_1 img{
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height:140px;
+    text-align: top;
+
+}
+#wrapper #content #left #left_1 p{
+   
+    padding-left: 0px;
+    padding-right: 10px;
+    text-align:justify;
+    color: black;
+    font-size: 8px;
+}
+
+#wrapper #footer{
+    width:700px;
+    float:left;
+    display: block;
+    position: center;
+    min-height: 10px;
+    margin-top:10px;
+    color:rgba(51, 50, 50, 0.7);
+    text-align: center;
+         
+}
